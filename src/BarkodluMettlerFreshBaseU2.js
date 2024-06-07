@@ -11,24 +11,24 @@ function BarkodluMettlerFreshBaseU2() {
     return (
       <>
           <Template></Template>
-          <Typography style={{position:"absolute",top:610,left:680}} fontSize={30}>FreshBase U2</Typography>
-      <Grid container xs={12} bgcolor={"white"}>
-      <Grid xs={1.5} style={{marginLeft:400,marginTop:100}}>
-          <Grid item onClick={()=>navigate("/Teraziler")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover":{bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} color={"#6c757d"} fontSize={25}>Teraziler</Typography></Button></Grid>
-          <Box height={10}></Box>
-          <Grid item onClick={()=>navigate("/Basküller")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Basküller</Typography></Button></Grid>    
-          <Box height={10}></Box>
-          <Grid item onClick={()=>navigate("/Vinç Kantarları")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Vinç kantarları</Typography></Button></Grid>
-      </Grid>
+          <Typography style={{position:"absolute",top:610,left:"36%"}} fontSize={30}>FreshBase U2</Typography>
+    <Grid container xs={12} bgcolor={"white"}>
+    <Grid xs={1.5} style={{marginLeft:"21%",marginTop:100}}>
+        <Grid item  xs={12} lg={12} onClick={()=>navigate("/Teraziler")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover":{bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} color={"#6c757d"} fontSize={25}>Teraziler</Typography></Button></Grid>
+        <Box height={10}></Box>
+        <Grid item  xs={12} lg={12} onClick={()=>navigate("/Basküller")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Basküller</Typography></Button></Grid>    
+        <Box height={10}></Box>
+        <Grid item  xs={12} lg={12} onClick={()=>navigate("/Vinç Kantarları")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Vinç kantarları</Typography></Button></Grid>
+    </Grid>
          <Grid xs={4} style={{marginTop:120,marginLeft:40}}>
          <Typography style={{fontSize:"18px"}}>Dokunmatik Barkodlu Terazi, Orjinal Wi-Fi kart terazi içerisinde takılıdır</Typography>
       </Grid>
-          <img style={{marginLeft:60,marginTop:30}} src={mettlerFreshBaseU2} alt={"cl3000"}height={400} width={450}></img> 
-          <Grid container marginLeft={85}>
+          <img style={{marginLeft:"%2",marginTop:30}} src={mettlerFreshBaseU2} alt={"cl3000"} width={"18%"}></img> 
+          <Grid container marginLeft={"38%"}>
             <Typography style={{fontWeight:"bold", fontSize:20}}>Ürün Özellikleri</Typography>
           </Grid>
           
-          <Grid xs={5} style={{border:"1px solid black",height:560,marginLeft:680,marginTop:30}}>
+          <Grid xs={5} style={{border:"1px solid black",height:560,marginLeft:"36%",marginTop:30}}>
            
         <Box bgcolor={"#dee2e6"} height={35}><Typography  style={{marginLeft:10,paddingTop:2,color:"rgba(0, 0, 0, 0.7)", fontSize:"18px"}}>Yüksek çözünürlüklü LCD ekran, canlı ekran aydınlatma özelliği net görüntü kalitesi</Typography></Box>
         <Box height={35}><Typography style={{marginLeft:10,paddingTop:2,color:"rgba(0, 0, 0, 0.7)", fontSize:"18px"}}>Müşteri ekranında slite resim geçişi</Typography></Box>
@@ -48,7 +48,7 @@ function BarkodluMettlerFreshBaseU2() {
         <Box height={35}><Typography style={{marginLeft:10,paddingTop:2,color:"rgba(0, 0, 0, 0.7)"}}>Saatlik, haftalık, aylık ve yıllık rapor alabilme</Typography></Box>
 
         </Grid>
-            <img alt='cl3000screenshot' src={mettlerFreshBaseU2EkranGörüntüsü} height={800} width={1000} style={{marginLeft:665,marginTop:60}}></img>
+            <img alt='cl3000screenshot' src={mettlerFreshBaseU2EkranGörüntüsü} width={"52%"} style={{marginLeft:"36%",marginTop:60}}></img>
       </Grid>
         
   

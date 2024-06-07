@@ -24,11 +24,12 @@ function TranspaletHana() {
         <Box height={10}></Box>
         <Grid item onClick={()=>navigate("/Vinç Kantarları")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Vinç kantarları</Typography></Button></Grid>
     </Grid>
-    <Grid onMouseEnter={()=> setHovered1(true)} onMouseLeave={()=>setHovered1(false)} bgcolor={"white"} container justifyContent={"center"}  xs={2} style={{height:435,marginTop:hovered1 ? 60:80,marginLeft:30,padding:30,position:"relative",border:"1px solid white", borderRadius:10,boxShadow: "2px 2px 10px rgba(0, 0, 0,0.3)", transition: "margin-top 0.5s ease"}}>
-         <Typography style={{fontSize:20,fontWeight:'bold'}}>HS-2600 WLCD</Typography>
-         <img src={temOnayliTranspalet} alt={"hs-2000"}height={300} width={250}></img>
-        <Button onClick={()=>navigate("/Transpalet Hana HS-2600 WLCD")} disableRipple sx={{bgcolor:"#133F67",marginRight:19,marginTop:2,"&:hover":{bgcolor:"#0560bb"},transition:"background-color 0.5s ease"}}><Typography sx={{fontSize:16,fontWeight:'400',textAlign:"center",color:"white",textTransform:"none"}}>Ürün Detay</Typography></Button>
-      </Grid> 
+
+      <Grid container onMouseEnter={()=> setHovered1(true)} onMouseLeave={()=>setHovered1(false)} bgcolor={"white"} xs={12} sm={2} md={2} lg={2} style={{height:400,marginLeft:"2.8%",marginTop:hovered1 ? 60:80,padding:30,position:"relative",border:"1px solid white", borderRadius:10,boxShadow: "2px 2px 10px rgba(0, 0, 0,0.3)", transition: "margin-top 0.5s ease"}}>
+          <Grid container justifyContent={"center"}><Typography sx={{fontSize:{xs:20,sm:12,md:14,lg:18},fontWeight:'bold'}}>HS-2600 WLCD</Typography></Grid>
+          <Grid container><img src={temOnayliTranspalet} alt={"hs-2000"}height={280} width={"100%"}></img></Grid>
+          <Grid container><Button onClick={()=>navigate("/Transpalet Hana HS-2600 WLCD")} disableRipple sx={{bgcolor:"#133F67",width:"120px","&:hover":{bgcolor:"#0560bb"},transition:"background-color 0.5s ease"}}><Typography sx={{fontSize:{xs: 20,sm:8,md:12,lg:16},color:"white",textTransform:"none"}}>Ürün Detay</Typography></Button></Grid>
+        </Grid> 
   
     </Grid>
 

@@ -9,21 +9,21 @@ function PaslanmazBaskulMurbaySelesXK3108B() {
     return (
       <>
           <Template></Template>
-          <Typography style={{position:"absolute",top:610,left:680}} fontSize={30}>SELES XK3108B</Typography>
-      <Grid container xs={12} bgcolor={"white"}>
-      <Grid xs={1.5} style={{marginLeft:400,marginTop:100}}>
-          <Grid item onClick={()=>navigate("/Teraziler")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover":{bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} color={"#6c757d"} fontSize={25}>Teraziler</Typography></Button></Grid>
-          <Box height={10}></Box>
-          <Grid item onClick={()=>navigate("/Basküller")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Basküller</Typography></Button></Grid>    
-          <Box height={10}></Box>
-          <Grid item onClick={()=>navigate("/Vinç Kantarları")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Vinç kantarları</Typography></Button></Grid>
-      </Grid>
+          <Typography style={{position:"absolute",top:610,left:"36%"}} fontSize={30}>SELES XK3108B</Typography>
+    <Grid container xs={12} bgcolor={"white"}>
+    <Grid xs={1.5} style={{marginLeft:"21%",marginTop:100}}>
+        <Grid item  xs={12} lg={12} onClick={()=>navigate("/Teraziler")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover":{bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} color={"#6c757d"} fontSize={25}>Teraziler</Typography></Button></Grid>
+        <Box height={10}></Box>
+        <Grid item  xs={12} lg={12} onClick={()=>navigate("/Basküller")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Basküller</Typography></Button></Grid>    
+        <Box height={10}></Box>
+        <Grid item  xs={12} lg={12} onClick={()=>navigate("/Vinç Kantarları")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Vinç kantarları</Typography></Button></Grid>
+    </Grid>
          <Grid xs={4} style={{marginTop:120,marginLeft:40}}>
          <Typography style={{fontSize:"18px"}}>Seles XK3108B Serisi Paslanmaz Tartım Baskülleri, yüksek hassasiyet performansı ile doğru tartım ve ihtiyaca uygun kapasite & hassasiyet seçenekleri ile tüm sektörlere hitap etmektedir.  </Typography>
       
       </Grid>
-          <img style={{marginLeft:60,marginTop:30}} src={paslanmazBaskulMurbaySelesXK3108B} alt={"cl3000"}height={400} width={350}></img>
-          <Grid xs={6} style={{marginLeft:679,fontSize:"18px"}}>
+          <img style={{marginLeft:"2%",marginTop:30}} src={paslanmazBaskulMurbaySelesXK3108B} alt={"cl3000"} width={"18%"}></img>
+          <Grid xs={6} style={{marginLeft:"36%",fontSize:"18px"}}>
               <Typography style={{fontSize:"18px",marginTop:5,fontWeight:"bold"}}>-Genel Özellikler</Typography>
               <Typography style={{fontSize:"18px",marginTop:10}}>-Elektrostatik toz boyalı platforma sahiptir.</Typography>
               <Typography style={{fontSize:"18px",marginTop:5}}>-Otomatik sıfırlama ve dara alma</Typography>

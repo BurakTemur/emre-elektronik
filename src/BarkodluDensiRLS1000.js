@@ -12,16 +12,16 @@ function BarkodluDensiRLS1000() {
   return (
     <>
         <Template></Template>
-        <Typography style={{position:"absolute",top:610,left:680}} fontSize={30}>RLS-1000</Typography>
+        <Typography style={{position:"absolute",top:610,left:"36%"}} fontSize={30}>RLS-1000</Typography>
     <Grid container xs={12} bgcolor={"white"}>
-    <Grid xs={1.5} style={{marginLeft:400,marginTop:100}}>
-        <Grid item onClick={()=>navigate("/Teraziler")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover":{bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} color={"#6c757d"} fontSize={25}>Teraziler</Typography></Button></Grid>
+    <Grid xs={1.5} style={{marginLeft:"21%",marginTop:100}}>
+        <Grid item  xs={12} lg={12} onClick={()=>navigate("/Teraziler")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover":{bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} color={"#6c757d"} fontSize={25}>Teraziler</Typography></Button></Grid>
         <Box height={10}></Box>
-        <Grid item onClick={()=>navigate("/Basküller")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Basküller</Typography></Button></Grid>    
+        <Grid item  xs={12} lg={12} onClick={()=>navigate("/Basküller")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Basküller</Typography></Button></Grid>    
         <Box height={10}></Box>
-        <Grid item onClick={()=>navigate("/Vinç Kantarları")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Vinç kantarları</Typography></Button></Grid>
+        <Grid item  xs={12} lg={12} onClick={()=>navigate("/Vinç Kantarları")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Vinç kantarları</Typography></Button></Grid>
     </Grid>
-       <Grid xs={4} style={{marginTop:120,marginLeft:40}}>
+       <Grid xs={4} style={{marginTop:120,marginLeft:"2%"}}>
            <Typography style={{fontSize:"18px",marginTop:5 , fontWeight:"bold"}}>GÖSTERGELER</Typography>
           <Typography style={{fontSize:"18px",marginTop:20}}>Parlak ve Okunaklıdır.</Typography>
           <Typography style={{fontSize:"18px",marginTop:5}}>7 Haneye Kadar Fiyatları Yazar ve Gösterir.</Typography>
@@ -33,9 +33,9 @@ function BarkodluDensiRLS1000() {
           <Typography style={{fontSize:"18px",marginTop:5}}>30,35,40,60,80,90 mm uzunlukta etiket seçenekleri mevcuttur.</Typography>
     
     </Grid>
-        <img style={{marginLeft:60,marginTop:30}} src={DensiRLS1000} alt={"cl3000"}height={400} width={450}></img>
+        <img style={{marginLeft:"2%",marginTop:30}} src={DensiRLS1000} alt={"cl3000"} width={"18%"}></img>
 
-          <img alt='cl3000screenshot' src={BarkodluDensiRLS1000EkranGörüntüsü} height={600} width={500} style={{marginLeft:665,marginTop:60}}></img>
+          <img alt='cl3000screenshot' src={BarkodluDensiRLS1000EkranGörüntüsü} width={"36%"} style={{marginLeft:"36%",marginTop:60}}></img>
     </Grid>
       
 

@@ -11,21 +11,21 @@ function BarkodluCasCl3000() {
     return (
       <>
           <Template></Template>
-          <Typography style={{position:"absolute",top:610,left:680}} fontSize={30}>CL-3000</Typography>
-      <Grid container xs={12} bgcolor={"white"}>
-      <Grid xs={1.5} style={{marginLeft:400,marginTop:100}}>
-          <Grid item onClick={()=>navigate("/Teraziler")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover":{bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} color={"#6c757d"} fontSize={25}>Teraziler</Typography></Button></Grid>
-          <Box height={10}></Box>
-          <Grid item onClick={()=>navigate("/Basküller")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Basküller</Typography></Button></Grid>    
-          <Box height={10}></Box>
-          <Grid item onClick={()=>navigate("/Vinç Kantarları")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Vinç kantarları</Typography></Button></Grid>
-      </Grid>
+          <Typography style={{position:"absolute",top:610,left:"36%"}} fontSize={30}>CL-3000</Typography>
+    <Grid container xs={12} bgcolor={"white"}>
+    <Grid xs={1.5} style={{marginLeft:"21%",marginTop:100}}>
+        <Grid item  xs={12} lg={12} onClick={()=>navigate("/Teraziler")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover":{bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} color={"#6c757d"} fontSize={25}>Teraziler</Typography></Button></Grid>
+        <Box height={10}></Box>
+        <Grid item  xs={12} lg={12} onClick={()=>navigate("/Basküller")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Basküller</Typography></Button></Grid>    
+        <Box height={10}></Box>
+        <Grid item  xs={12} lg={12} onClick={()=>navigate("/Vinç Kantarları")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Vinç kantarları</Typography></Button></Grid>
+    </Grid>
          <Grid xs={4} style={{marginTop:120,marginLeft:40}}>
          <Typography style={{fontSize:"18px"}}>CL3000 barkodlu terazi modelimiz market, süpermarket, şarküteri, kuruyemişçi, manav ve zincir mağazalar için kullanıma uygundur. Kullanım alanına göre 15 kg veya 30 kg tartım kapasitesi seçeneği mevcuttur. Tezgahtar satışı, fiyat etiketleme ve tezgah üstü terazi modu vardır.</Typography>
       
       </Grid>
-          <img style={{marginLeft:60,marginTop:30}} src={casCL3000} alt={"cl3000"}height={400} width={350}></img>
-          <Grid xs={6} style={{marginLeft:679,fontSize:"18px"}}>
+          <img style={{marginLeft:"2%",marginTop:30}} src={casCL3000} alt={"cl3000"}width={"18%"}></img>
+          <Grid xs={6} style={{marginLeft:"36%",fontSize:"18px"}}>
               <Typography style={{fontSize:"18px",marginTop:5 , fontWeight:"bold"}}>Kullanım Alanı</Typography>
               <Typography style={{fontSize:"18px",marginTop:20}}>Fiyat etiketleme/Ön paketleme</Typography>
               <Typography style={{fontSize:"18px",marginTop:10}}>Tezgah kullanımı (30)</Typography>
@@ -41,7 +41,7 @@ function BarkodluCasCl3000() {
          
           </Grid>
   
-            <img alt='cl3000screenshot' src={casCL3000ekranGoruntusu} height={800} width={1000} style={{marginLeft:665,marginTop:60}}></img>
+            <img alt='cl3000screenshot' src={casCL3000ekranGoruntusu} width={"52%"} style={{marginLeft:"36%",marginTop:60}}></img>
       </Grid>
         
   

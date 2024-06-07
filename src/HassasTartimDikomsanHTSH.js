@@ -11,16 +11,16 @@ function HassasTartimDikomsanHTSH() {
     return (    
       <>
           <Template></Template>
-          <Typography style={{position:"absolute",top:610,left:680}} fontSize={30}>HCT-HB</Typography>
-      <Grid container xs={12} bgcolor={"white"}>
-      <Grid xs={1.5} style={{marginLeft:400,marginTop:100}}>
-          <Grid item onClick={()=>navigate("/Teraziler")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover":{bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} color={"#6c757d"} fontSize={25}>Teraziler</Typography></Button></Grid>
-          <Box height={10}></Box>
-          <Grid item onClick={()=>navigate("/Basküller")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Basküller</Typography></Button></Grid>    
-          <Box height={10}></Box>
-          <Grid item onClick={()=>navigate("/Vinç Kantarları")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Vinç kantarları</Typography></Button></Grid>
-      </Grid>
-         <Grid xs={4} style={{marginTop:120,marginLeft:40}}>
+          <Typography style={{position:"absolute",top:610,left:"36%"}} fontSize={30}>HT-SH</Typography>
+    <Grid container xs={12} bgcolor={"white"}>
+    <Grid xs={1.5} style={{marginLeft:"21%",marginTop:100}}>
+        <Grid item  xs={12} lg={12} onClick={()=>navigate("/Teraziler")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover":{bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} color={"#6c757d"} fontSize={25}>Teraziler</Typography></Button></Grid>
+        <Box height={10}></Box>
+        <Grid item  xs={12} lg={12} onClick={()=>navigate("/Basküller")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Basküller</Typography></Button></Grid>    
+        <Box height={10}></Box>
+        <Grid item  xs={12} lg={12} onClick={()=>navigate("/Vinç Kantarları")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover": {bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} fontSize={25} color={"#6c757d"}>Vinç kantarları</Typography></Button></Grid>
+    </Grid>
+         <Grid xs={4} style={{marginTop:120,marginLeft:"2%"}}>
               
               <Typography style={{fontSize:"18px",marginTop:20,fontWeight:"Bold"}}>Genel Özellikler</Typography>
               <Typography style={{fontSize:"18px",marginTop:15}}>Endüstriyel Kullanım İçin</Typography>
@@ -39,9 +39,9 @@ function HassasTartimDikomsanHTSH() {
 
               
       </Grid>
-          <img style={{marginLeft:60,marginTop:30}} src={dikomsanHTSH} alt={"cl3000"}height={400} width={450}></img>
-          <img style={{marginLeft:665,marginTop:50}} src={dikomsanHTSHEkranGörüntüsü} alt={"cl3000"}height={400} width={450}></img>
-          <Grid xs={6} style={{marginLeft:679,fontSize:"18px"}}>
+          <img style={{marginLeft:"2%",marginTop:30}} src={dikomsanHTSH} alt={"cl3000"}width={"18%"}></img>
+          <img style={{marginLeft:"36%",marginTop:50}} src={dikomsanHTSHEkranGörüntüsü} alt={"cl3000"}width={"36%"}></img>
+          <Grid xs={6} style={{marginLeft:"36%",fontSize:"18px"}}>
           </Grid>
       </Grid>
       
