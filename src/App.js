@@ -91,6 +91,26 @@ import TranspaletTemOnaylı from './TranspaletTemOnaylı';
 import TranspaletHanaHS2600WLCD from './TranspaletHanaHS2600WLCD';
 import PaslanmazBaskulMurbaySelesBWS from './PaslanmazBaskulMurbaySelesBWS';
 import PaslanmazBaskulMurbaySelesXK3108B from './PaslanmazBaskulMurbaySelesXK3108B';
+import EndustriyelMalzemeler from './EndustriyelMalzemeler';
+import Loadcell from './Loadcell';
+import LoadcellDensi from './LoadcellDensi';
+import LoadcellDensiTEDEA1260 from './LoadcellDensiTEDEA1260';
+import LoadcellDensiTEDEA1263 from './LoadcellDensiTEDEA1263';
+import LoadcellDensiTEDEA1510 from './LoadcellDensiTEDEA1510';
+import LoadcellDensiMavinNA1 from './LoadcellDensiMavinNA1';
+import LoadcellDensiMavinNA2 from './LoadcellDensiMavinNA2';
+import LoadcellDensiMavinNA3 from './LoadcellDensiMavinNA3';
+import LoadcellDensiMavinNA4 from './LoadcellDensiMavinNA4';
+import LoadcellDensiMavinNA10 from './LoadcellDensiMavinNA10';
+import LoadcellDensiMavinNA19 from './LoadcellDensiMavinNA19';
+import LoadcellDensiMavinNA20 from './LoadcellDensiMavinNA20';
+import LoadcellDensiMavinNA128 from './LoadcellDensiMavinNA128';
+import LoadcellDensiMavinNA116 from './LoadcellDensiMavinNA116';
+import LoadcellDensiMavinNA164 from './LoadcellDensiMavinNA164';
+import LoadcellDensiMavinNB2 from './LoadcellDensiMavinNB2';
+import LoadcellDensiMavinNS1 from './LoadcellDensiMavinNS1';
+
+
 function App() {
   return (
     <>
@@ -186,6 +206,25 @@ function App() {
       <Route exact path={"/Transpalet Hana HS-2600 WLCD"} element={<TranspaletHanaHS2600WLCD/>}></Route>
       <Route exact path={"/Paslanmaz Baskül Murbay Seles BWS"} element={<PaslanmazBaskulMurbaySelesBWS/>}></Route>
       <Route exact path={"/Paslanmaz Baskül Murbay Seles XK3108B"} element={<PaslanmazBaskulMurbaySelesXK3108B/>}></Route>
+      <Route exact path={"/Endüstriyel Malzemeler"} element={<EndustriyelMalzemeler/>}></Route>
+      <Route exact path={"/Loadcell"} element={<Loadcell/>}></Route>
+      <Route exact path={"/Loadcell Densi"} element={<LoadcellDensi/>}></Route>
+      <Route exact path={"/Loadcell Densi TEDEA 1260"} element={<LoadcellDensiTEDEA1260/>}></Route>
+      <Route exact path={"/Loadcell Densi TEDEA 1263"} element={<LoadcellDensiTEDEA1263/>}></Route>
+      <Route exact path={"/Loadcell Densi TEDEA 1510"} element={<LoadcellDensiTEDEA1510/>}></Route>
+      <Route exact path={"/Loadcell Densi Mavin NA1"} element={<LoadcellDensiMavinNA1/>}></Route>
+      <Route exact path={"/Loadcell Densi Mavin NA2"} element={<LoadcellDensiMavinNA2/>}></Route>
+      <Route exact path={"/Loadcell Densi Mavin NA3"} element={<LoadcellDensiMavinNA3/>}></Route>
+      <Route exact path={"/Loadcell Densi Mavin NA4"} element={<LoadcellDensiMavinNA4/>}></Route>
+      <Route exact path={"/Loadcell Densi Mavin NA10"} element={<LoadcellDensiMavinNA10/>}></Route>
+      <Route exact path={"/Loadcell Densi Mavin NA19"} element={<LoadcellDensiMavinNA19/>}></Route>
+      <Route exact path={"/Loadcell Densi Mavin NA20"} element={<LoadcellDensiMavinNA20/>}></Route>
+      <Route exact path={"/Loadcell Densi Mavin NA128"} element={<LoadcellDensiMavinNA128/>}></Route>
+      <Route exact path={"/Loadcell Densi Mavin NA116"} element={<LoadcellDensiMavinNA116/>}></Route>
+      <Route exact path={"/Loadcell Densi Mavin NA164"} element={<LoadcellDensiMavinNA164/>}></Route>
+      <Route exact path={"/Loadcell Densi Mavin NB2"} element={<LoadcellDensiMavinNB2/>}></Route>
+      <Route exact path={"/Loadcell Densi Mavin NS1"} element={<LoadcellDensiMavinNS1/>}></Route>
+
 
     </Routes>
     </BrowserRouter>

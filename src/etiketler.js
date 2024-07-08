@@ -1,6 +1,7 @@
 import React from 'react'
 import Template from './template'
 import { Grid,Box, Typography } from '@mui/material'
+import Template2 from './template2'
 
 function Etiketler() {
   return (
@@ -229,6 +230,7 @@ function Etiketler() {
     </Grid>
     
     <Box height={200} bgcolor={"white"}></Box>
+    <Template2></Template2>
     </>
   )
 }

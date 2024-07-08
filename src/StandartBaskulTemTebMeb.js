@@ -4,6 +4,7 @@ import { Grid ,Box, Typography,Button} from '@mui/material'
 import { useNavigate } from 'react-router-dom'
 import standartBaskulTemTebMeb from "./Images/tem teb meb.png"
 import standartBaskulTemTebMebEkranGörüntüsü from "./Images/tem teb meb ekran görüntüsü.png"
+import Template2 from './template2';
 
 function StandartBaskulTemTebMeb() {
     const navigate = useNavigate();
@@ -11,7 +12,7 @@ function StandartBaskulTemTebMeb() {
     return (
       <>
           <Template></Template>
-          <Typography style={{position:"absolute",top:610,left:"36%"}} fontSize={30}>TEM MEB</Typography>
+          <Typography style={{position:"absolute",top:610,left:"36%"}} fontSize={30}>TEB MEB</Typography>
     <Grid container xs={12} bgcolor={"white"}>
     <Grid xs={1.5} style={{marginLeft:"21%",marginTop:100}}>
         <Grid item  xs={12} lg={12} onClick={()=>navigate("/Teraziler")} bgcolor={"#f8f9fa"}><Button disableRipple sx={{"&:hover":{bgcolor:"#f8f9fa"}}}><Typography sx={{"&:hover":{color:"black"}}} textTransform={"none"} color={"#6c757d"} fontSize={25}>Teraziler</Typography></Button></Grid>
@@ -30,7 +31,7 @@ function StandartBaskulTemTebMeb() {
       </Grid>
       <img style={{marginLeft:"36%",marginTop:60}} src={standartBaskulTemTebMebEkranGörüntüsü} alt={"cl3000"}height={250} width={"40%"}></img>
   
-      <Box height={500} bgcolor={"white"}></Box>
+      <Template2></Template2>
       </>
     )
 }

@@ -43,7 +43,7 @@ function Template() {
         <Button onClick={() => { changeImages("prev") }} disableRipple style={{ position: "absolute", top: 450, left: "5%" }} sx={{"&:hover": {background:"none"}}}><Typography fontSize={50} color={"white"}>{"<"}</Typography></Button>
         <Button onClick={() => { changeImages("next") }} disableRipple style={{ position: "absolute", top: 450, left: "90%" }} sx={{"&:hover": {background:"none"}}}><Typography fontSize={50} color={"white"}>{">"}</Typography></Button>
         <Grid xs={8}></Grid>
-        <Grid container xs={4} style={{ position: "absolute", top: '10%', left: '40%' }}  >
+        <Grid container xs={4} style={{ position: "absolute", top: '10%', left: '40%'}} >
           <Button onClick={()=>{navigate("/")}} style={{ marginRight: 15 }}><Typography variant='h5' textTransform={'none'} color={"white"} >Ana Sayfa</Typography></Button>
           <Button onClick={()=>{navigate("/İletişim")}} style={{ marginRight: 15 }}><Typography variant='h5' textTransform={'none'} color={"white"} >İletişim</Typography></Button>
           <Button onClick={()=>navigate("/Hakkımızda")}><Typography variant='h5' textTransform={'none'} color={"white"} >Hakkımızda</Typography></Button>

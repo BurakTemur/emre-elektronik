@@ -5,6 +5,7 @@ import teraziler from "./Images/teraziler.png";
 import etiketler from "./Images/etiketler.jpg";
 import streçler from "./Images/streçler.jpg";
 import { useNavigate } from 'react-router-dom';
+import Template2 from './template2';
 
 function AnaSayfa() {
   const navigate = useNavigate();
@@ -53,7 +54,7 @@ function AnaSayfa() {
 
       </Grid>
 
-      <Box sx={{ marginTop: 100 }} bgcolor={"black"} height={300} width={"100%"}><Typography color={"white"}>Emre Elektronik</Typography></Box>
+      <Template2></Template2>
     </>
   );
 }
