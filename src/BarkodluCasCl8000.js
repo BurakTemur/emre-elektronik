@@ -3,7 +3,7 @@ import Template from './template'
 import { Grid ,Box, Typography,Button} from '@mui/material'
 import { useNavigate } from 'react-router-dom'
 import casCL8000 from "./Images/cas cl 8000.png"
-
+import Template2 from './template2';
 function BarkodluCasCl8000() {
 
     const navigate = useNavigate();
@@ -51,11 +51,9 @@ function BarkodluCasCl8000() {
         <Box height={35}><Typography style={{marginLeft:10,paddingTop:2,color:"rgba(0, 0, 0, 0.7)"}}>Opsiyonel wifi</Typography></Box>
 
         </Grid>
-        
+        <Template2></Template2>
     </Grid>
       
-
-    <Box height={500} bgcolor={"white"}></Box>
     </>
   )
 }

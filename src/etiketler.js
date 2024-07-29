@@ -1,14 +1,19 @@
 import React from 'react'
 import Template from './template'
-import { Grid,Box, Typography } from '@mui/material'
+import { Grid} from '@mui/material'
 import Template2 from './template2'
+import etiketler1 from './Images/etiketler1.png'
+import etiketler2 from './Images/etiketler2.png'
 
 function Etiketler() {
   return (
     <>
     <Template></Template>
-    <Grid container xs={12}>
-      <Grid container xs={1} style={{borderLeft:"1px solid black",borderRight:"1px solid black",borderTop:"1px solid black",marginLeft:450,marginTop:40}}>
+    <Grid container xs={12} sm={12} md={9} lg={9} sx={{marginLeft:{xs:"3%",sm:"5%",md:"25%",lg:"25%"},marginTop:5}} >
+    <img src={etiketler1} alt='etiketler' style={{ height: 600, width: "25%", minWidth: 200 }} />
+    <img src={etiketler2} alt='etiketler' style={{ height: 600, width: "25%", minWidth: 200, marginLeft: "10%" }} />
+
+      {/*<Grid container xs={1} style={{borderLeft:"1px solid black",borderRight:"1px solid black",borderTop:"1px solid black",marginLeft:450,marginTop:40}}>
         <Grid >       
           <Typography style={{marginLeft:26,marginTop:20,fontWeight:"bold"}}>Bıçak Ölçüsü</Typography>
           <Typography style={{marginLeft:35,fontWeight:"bold"}}>Eni / Akarı</Typography>
@@ -47,44 +52,6 @@ function Etiketler() {
         </Grid>
       </Grid>
       
-
-     {/* <Grid container xs={1}  style={{borderTop:"1px solid black",marginTop:40}}>
-        <Grid >       
-          <Typography style={{marginLeft:26,marginTop:20,fontWeight:"bold"}}>Bobin Ölçüsü</Typography>
-          <Box style={{marginTop:20}} width={158} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>25,5</Typography>
-          <Box style={{marginTop:5}} width={158} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>17,5</Typography>
-          <Box style={{marginTop:5}} width={158} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>17,5</Typography>
-          <Box style={{marginTop:5}} width={158} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>23,7</Typography> 
-           <Box style={{marginTop:5}} width={158} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>21,5</Typography>
-          <Box style={{marginTop:5}} width={158} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>24,5</Typography>
-          <Box style={{marginTop:5}} width={158} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>24,5</Typography>
-          <Box style={{marginTop:5}} width={158} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>24,5</Typography>
-          <Box style={{marginTop:5}} width={158} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>24,5</Typography>
-          <Box style={{marginTop:5}} width={158} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>24,5</Typography>
-          <Box style={{marginTop:5}} width={158} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>24,5</Typography>
-          <Box style={{marginTop:5}} width={158} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>24,5</Typography>
-          <Box style={{marginTop:5}} width={158} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>24,5</Typography>
-          <Box style={{marginTop:5}} width={158} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>21</Typography>
-          <Box style={{marginTop:5}} width={158} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>24,5</Typography>
-          <Box style={{marginTop:5}} width={158} height={"1px"} bgcolor={"black"}></Box>
-         
-        </Grid>
-  </Grid>*/}
 
       <Grid container xs={1}  style={{marginTop:40,borderLeft:"1px solid black",borderRight:"1px solid black",borderTop:"1px solid black"}}>
         <Grid >       
@@ -160,39 +127,7 @@ function Etiketler() {
       </Grid>
       
 
-      {/* <Grid container xs={1}  style={{height:555,borderTop:"1px solid black",borderBottom:"1px solid black",marginTop:40}}>
-        <Grid >       
-          <Typography style={{marginLeft:26,marginTop:20,fontWeight:"bold"}}>Bobin Ölçüsü</Typography>
-          <Box style={{marginTop:20}} width={159} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>24,5</Typography>
-          <Box style={{marginTop:5}} width={159} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>25,5</Typography>
-          <Box style={{marginTop:5}} width={159} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>25,5</Typography>
-          <Box style={{marginTop:5}} width={159} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>25,5</Typography>
-          <Box style={{marginTop:5}} width={159} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>25,5</Typography>
-          <Box style={{marginTop:5}} width={159} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>21</Typography>
-          <Box style={{marginTop:5}} width={159} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>21</Typography>
-          <Box style={{marginTop:5}} width={159} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>21</Typography>
-          <Box style={{marginTop:5}} width={159} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>21</Typography>
-          <Box style={{marginTop:5}} width={159} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>21</Typography>
-          <Box style={{marginTop:5}} width={159} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>21</Typography>
-          <Box style={{marginTop:5}} width={159} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>21</Typography>
-          <Box style={{marginTop:5}} width={159} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>21</Typography>
-          <Box style={{marginTop:5}} width={159} height={"1px"} bgcolor={"black"}></Box>
-          <Typography textAlign={"center"} style={{marginTop:5}}>21</Typography>
-        </Grid>
-</Grid>*/}
+  
 
       <Grid container xs={1}  style={{height:578,border:"1px solid black",marginTop:40}}>
         <Grid >       
@@ -226,10 +161,9 @@ function Etiketler() {
           <Box style={{marginTop:5}} width={156} height={"1px"} bgcolor={"black"}></Box>
           <Typography textAlign={"center"} style={{marginTop:5}}>500</Typography>
         </Grid>
-      </Grid>
+      </Grid>*/}
     </Grid>
-    
-    <Box height={200} bgcolor={"white"}></Box>
+  
     <Template2></Template2>
     </>
   )
